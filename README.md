@@ -5,7 +5,7 @@ This program creates a TXT file that reflects all files and folders under the sp
 ## How does it work:
 The SaveDirectoryTreeToFile procedure runs with the specified root directory and output filename.
 
-The WriteDirectoryContents procedure is called recursively. This procedure scans the files and subfolders for each folder, prints them via StreamWriter.
+The DoWriteDirectoryContents procedure is called recursively. This procedure scans the files and subfolders for each folder, prints them via StreamWriter.
 Files and folders are indented so that the folder hierarchy is preserved.
 
 
