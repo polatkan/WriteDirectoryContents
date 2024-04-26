@@ -1,6 +1,6 @@
 # WriteDirectoryContents
 
-This program creates a TXT file that reflects all files and folders under the specified root directory in a nested structure. Indentation is used for nested folders.
+This program creates a TXT file that reflects all files and folders under the specified root directory in a nested structure.
 
 ## How does it work:
 The SaveDirectoryTreeToFile procedure runs with the specified root directory and output filename.
